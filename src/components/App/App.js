@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
 import SearchBar from '../SearchBar/SearchBar';
-import SearchResults from '../SearchResults/SearchResults';
+import SearchResult from '../SearchResults/SearchResult';
 import Playlist from '../Playlist/Playlist';
+
 import { Container, Row, Col } from 'react-bootstrap';
 
 function App() {
@@ -13,10 +14,10 @@ function App() {
       <Container fluid>
         <Row>
           <Col md={6}>
-            <SearchResults />
-          </Col>
+             <SearchResult /> 
+         </Col>
           <Col md={6}>
-            <Playlist />
+             <Playlist />
           </Col>
         </Row>
       </Container>
