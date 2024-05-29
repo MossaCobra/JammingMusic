@@ -1,7 +1,7 @@
 import React from 'react';
 import './playlist.css';
 
-const Playlist = ({ songs }) => {
+const Playlist = ({ songs, handleRemove }) => {
     return (
         <div className='playlist'>
             <h2>Playlist</h2>
