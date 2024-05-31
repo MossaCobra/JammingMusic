@@ -15,6 +15,7 @@ html {
 }
 
 h1 {
+  margin-bottom: .1em;
   padding: .70rem 0;
   background-color: #000000;
   text-align: center;
