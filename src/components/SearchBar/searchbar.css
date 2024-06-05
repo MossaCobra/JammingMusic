@@ -1,7 +1,8 @@
 .searchbar-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row; 
   align-items: center;
+  justify-content: center; 
   padding-top: 6rem;
   margin-bottom: 6rem;
 }
@@ -9,12 +10,22 @@
 .searchbar-container input {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 32, 32, 0.2));
   width: 287px;
-  padding: .88rem 0;
+  padding: 0.88rem 0;
   border: 1px solid #fff;
   border-radius: 3px;
-  margin-bottom: 2.22rem;
+  margin-right: 1rem; 
   color: rgb(189, 7, 7);
   text-align: center;
   font-size: 1rem;
   opacity: 75%;
+}
+
+.searchbar-container button {
+  padding: 0.88rem 1.5rem; 
+  border: 1px solid #fff;
+  border-radius: 3px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 32, 32, 0.2));
+  color: rgb(0, 0, 0, 0.7);
+  font-size: 1rem;
+  cursor: pointer;
 }

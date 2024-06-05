@@ -9,6 +9,7 @@ const SearchBar = ({ search }) => {
             type='text' 
             onChange={search} 
             />
+            <button>Search</button>
         </div>
     );
 }
