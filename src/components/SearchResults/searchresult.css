@@ -1,0 +1,11 @@
+.SearchResult {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(61, 25, 25, 0.2));
+  border-radius: 10px;
+  color: #fff;
+}
+
+.SearchResult h2 {
+  margin-bottom: 10px;
+}
