@@ -33,7 +33,7 @@ h1 .highlight {
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(163, 11, 11, 0.1)), url('../../assets/images/mbackground1.jpg');
+  background-image: url('../../assets/images/mbackground1.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
