@@ -1,6 +1,6 @@
 # Preview
 
-![Website Preview](src\assets\images\preview.png)
+![Website Preview](src/assets/images/Preview.png)
 
 # Getting Started with Create React App
 
