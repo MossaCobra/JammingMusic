@@ -16,5 +16,6 @@ Jamming Music is a music playlist application that allows users to search for so
 ## Technologies Used
 
 - **React**: Front-end JavaScript library for building user interfaces.
+- **Node.js**: JavaScript runtime used for running the development server and managing dependencies.
 - **Bootstrap**: Used for styling the app with responsive layouts.
 - **CSS**: Custom styling for components.
