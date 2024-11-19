@@ -10,7 +10,6 @@ const initialSongs = [
   { title: 'Song C', artist: 'Artist 3', album: 'Album 3', id: 3 },
   { title: 'Song D', artist: 'Artist 4', album: 'Album 4', id: 4 },
   { title: 'Song E', artist: 'Artist 5', album: 'Album 5', id: 5 },
-  // Add more songs as needed
 ];
 
 function App() {
